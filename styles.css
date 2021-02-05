@@ -1,0 +1,108 @@
+
+        body{
+            margin: 0;
+            color:#fff;
+           }
+           
+           ul.topnav {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+             background-color: #fff;
+           }
+           
+           ul.topnav li {float: left;}
+           
+           ul.topnav li a {
+             display: block;
+             color:black;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+           }
+           
+           ul.topnav li {background-color: #fff;
+           }
+   
+           ul.topnav li.right {float: right;
+           }
+           #singin {
+           background:#5080f3;
+           color:white;
+           border-radius:4px;}
+     
+    .flex-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+    }
+           
+    form.flex-container input[type=text] {
+     padding: 10px;
+     font-size: 17px;
+     border: 1px solid grey;
+     float: left;
+     width: 20%;
+     background: #f1f1f1;
+   }
+   
+   form.flex-container  button {
+     float: left;
+     width: 5%;
+     padding: 10px;
+     background: #2196F3;
+     color: white;
+     font-size: 17px;
+     border: 1px solid grey;
+     border-left: none;
+     cursor: pointer;
+   }
+   
+   form.flex-container button:hover {
+     background: #0b7dda;
+   }
+   
+   form.flex-container ::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+   img{
+        position: relative;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 50%;
+       
+   
+    } 
+             
+           ul.footernav {
+             position: fixed;
+             bottom: 0;
+             width: 100%;
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+             background-color: #fff;
+   
+           }
+           
+           ul.footernav li.left {float: left;}
+           
+           ul.footernav li a {
+             display: block;
+             color:black;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+           }
+           
+           ul.footernav li {background-color: #fff;
+           }
+   
+           ul.footernav li.right {float: right;
+           }
